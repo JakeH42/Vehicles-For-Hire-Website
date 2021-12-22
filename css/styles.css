@@ -92,7 +92,7 @@ footer {
     text-align: center;
 }
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
     .contact-detail-list {
         margin-bottom: 40px;
     }
