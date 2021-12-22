@@ -1,0 +1,93 @@
+* {
+    color: #301d00;
+}
+
+h1, h2, h3, h4, h5, .logo {
+    font-family: 'Domine', serif;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+header,
+section {
+    padding: 100px 5px;
+}
+
+footer {
+    padding: 20px 5px;
+}
+
+.top-bar {
+    padding: 15px;
+}
+
+.logo img {
+    max-width: 120px;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/header-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 150px 5px;
+}
+
+#main-heading h1 {
+    text-align: center;
+    color: rgb(255, 243, 225);
+    font-weight: bold;
+}
+
+
+#cars-for-hire-section h2 {
+    margin-bottom: 40px;
+}
+
+#cars-for-hire-section .card {
+    margin-bottom: 10px;
+    border-radius: 5%;
+    transition: all 0.7s ease;
+}
+
+#cars-for-hire-section .card img {
+    border-radius: 5% 5% 0 0;
+}
+
+#cars-for-hire-section .card:hover {
+    background-color: #fffbf5;
+}
+
+#cars-for-hire-section .card ul,
+#contact-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar,
+#enquiries-section,
+footer {
+    background-color: rgb(255, 243, 225);
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+footer {
+    text-align: center;
+}
